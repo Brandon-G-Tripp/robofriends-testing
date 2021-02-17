@@ -16,7 +16,7 @@ jobs:
       - run: echo "Testing"
       - run: npm test
   hithere:
-  docker:
+    docker:
       - image: circleci/node:8.9
     steps: 
       - checkout
